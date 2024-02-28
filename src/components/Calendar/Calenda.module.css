@@ -1,0 +1,27 @@
+.charts{
+    background: #1F1D2B;
+    border-radius: 10px;
+}
+
+.search {
+  width: 14%;
+  background-color: #1f1d2b;
+  padding: 1rem 1em;
+  justify-content: center;
+  border: 1px solid white;
+  border-radius: 5px;
+  height: 1rem;
+}
+
+.search input {
+  background: transparent;
+  color: white;
+  outline: none;
+
+  width: 100%;
+}
+
+
+.history{
+  border: 0.5px solid white;
+}

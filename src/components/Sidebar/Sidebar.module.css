@@ -1,0 +1,50 @@
+.container{
+    width: 4%;
+height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1F1D2B;
+    padding: 1rem 0;
+    position: sticky;
+}
+
+.logo{
+    width: 45%;
+    max-width: 5rem;
+}
+
+.sidebar{
+    margin-top: 4rem;
+    flex-direction: column;
+    display: flex;
+    gap: 3rem;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    padding:0 2em;
+}
+
+.logout{
+    margin-top: 8em;
+}
+
+.sidebar>svg{
+    fill:  #008AAB;
+    ;
+    transition: 1s ease;
+width: 2em;
+height: 2em;
+
+}
+
+.sidebar>svg:hover{
+    background: white;
+    border-radius: 3px;
+}
+
+.logout> svg{
+    fill: #1a56db;
+    width: 3rem;
+
+}
